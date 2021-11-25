@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.selected {
+  background-color: grey;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 5px;
+  background-color: grey;
+}
+input:foucs {
+  outline: none;
+}
+input::placeholder {
+  color: 'black',
+}
+
+input.formInput {
+  margin-bottom: 8px;
+}
+
+.colorField {
+  height: 100%;
+  width: 15%;
+}
+
+p.errorText {
+  color: red;
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+div.fieldItem {
+  height: 100%;
+  display: flex;
+  width: 205px;
+  margin-right: 10px;
+}
+
+.material-form-wrapper {
+  width: 500px;
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
